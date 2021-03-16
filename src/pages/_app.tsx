@@ -7,8 +7,9 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>First Next Blog</title>
-        <link rel="shortcut icon" href="vercel.svg" />
-        <link rel="apple-touch-icon" href="vercel.svg" />
+        <link rel="shortcut icon" href="/img/brain-logo.png" />
+        <link rel="apple-touch-icon" href="/img/brain-logo.png" />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
